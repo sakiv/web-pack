@@ -1,0 +1,85 @@
+{
+    "name": "web-pack",
+    "displayName": "Web extension pack",
+    "description": "This extension adds commonly used extensions for Angular, Node, TypeScript and Git based applications.",
+    "version": "0.0.2",
+    "license": "MIT",
+    "icon": "assets/icon.png",
+    "publisher": "sakiv",
+    "homepage": "https://github.com/sakiv/web-pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sakiv/web-pack.git"
+    },
+    "keywords": [
+        "web pack",
+        "pack",
+        "web",
+        "angular",
+        "node",
+        "nodejs",
+        "typescript",
+        "git",
+        "web development"
+    ],    
+    "bugs": {
+        "url": "https://github.com/sakiv/web-pack/issues",
+        "email": "sakiv77@outlook.com"
+    },
+    "badges": [
+        {
+            "url": "https://img.shields.io/badge/License-MIT-brightgreen.svg",
+            "href": "https://opensource.org/licenses/MIT",
+            "description": "License: MIT"
+        },
+        {
+            "url": "https://travis-ci.org/sakiv/web-pack.svg?branch=master",
+            "href": "https://travis-ci.org/sakiv/web-pack",
+            "description": "Build Status"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version-short/sakiv.web-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sakiv.web-pack",
+            "description": "Version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs-short/sakiv.web-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sakiv.web-pack",
+            "description": "Installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating-short/sakiv.web-pack.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=sakiv.web-pack",
+            "description": "Ratings"
+        }
+    ],
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "anseki.vscode-color", 
+        "christian-kohler.npm-intellisense", 
+        "christian-kohler.path-intellisense", 
+        "dbaeumer.vscode-eslint", 
+        "dweber019.vscode-style-formatter", 
+        "eamodio.gitlens", 
+        "formulahendry.auto-close-tag", 
+        "formulahendry.code-runner", 
+        "HookyQR.beautify", 
+        "johnpapa.Angular2", 
+        "mkaufman.HTMLHint", 
+        "ms-vscode.autorest", 
+        "ms-vscode.jscs", 
+        "ms-vscode.vscode-typescript-tslint-plugin", 
+        "msjsdiag.debugger-for-chrome", 
+        "redhat.vscode-yaml", 
+        "Syler.sass-indented", 
+        "VisualStudioExptTeam.vscodeintellicode", 
+        "vscode-icons-team.vscode-icons", 
+        "sakiv.web-pack", 
+        "xabikos.JavaScriptSnippets"
+    ]
+}
