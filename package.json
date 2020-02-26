@@ -2,7 +2,7 @@
     "name": "web-pack",
     "displayName": "Web extension pack",
     "description": "This extension adds commonly used extensions for Angular, Node, TypeScript and Git based applications.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "icon": "assets/icon.png",
     "publisher": "sakiv",
