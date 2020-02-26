@@ -17,6 +17,7 @@ deploy:
   file: web-pack-*.vsix
   skip_cleanup: true
   draft: true
+  overwrite: true
   on:
     repo: sakiv/web-pack
     tags: true
