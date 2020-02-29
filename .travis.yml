@@ -14,6 +14,7 @@ deploy:
   provider: releases
   api_key:
     secure: YhZ39wDFEsm2tdV2tQZ7lcWZicdwk6FluEcPl1nY7pkVNLlMd+FulG51UCOGnPYsylYLYHFsHCuPFTfidUB23CSck8Oib3yNT1KPPmYfYYHOlXFoCUcyKNt9RqIaKfDG3U4whiw09fF6HOv2lFUK0rXKR/KxOsl5uNbbRiFfW/LOtXhgjGhylL/kDZbzJGCozAk0sf9BTErvnSsLYls4xng+EtA05+4pVPlkXHqfSnzQF7UgjaaIDfCUyD5vleCZ2SFsTqjX84odKtqZUbpaWLgssrfCdlyQeX1i76eM0s54QtWy/hGzJ0/Q84/bHCKBMWD3czHK6/mcLazBi6ZzphHvNjkhNWXqYKOh+m/HMKrJw4Pb7lAqSp4zXSHVFn40OBlCIot/VuPiY+qiXbtQUsh4gtV05u+kL+iksbrySI5x8hwTKu0I2oEMsUrMHp/uIqBf/QxNEzvP4CdP8Q3f69JAzRwzA1GZPyf3Vdw6vUAdzzAmVSWzP3/qbrmikLsE5F+vd4b1nWymQDGFYet8sA/DrPLGLLAJQjJx7lxbsXCnUEtofjsvpR/WHERYu93ZBlTcD7NwdS/22ov+K4rtlMrC/sXUxtDq7VmtFPP97trcZtjWhA9LHxemq221JaURrvGqReaF5FB8A+U1PmwkTt0zlXrKDVbOB0x/CyPYvwU=
+  file_glob: true
   file: web-pack-*.vsix
   skip_cleanup: true
   draft: true
